@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Benzin';
+    src: url('font/Benzin-ExtraBold.eot');
+    src: local('☞Benzin ExtraBold'), local('Benzin-ExtraBold'),
+        url('font/Benzin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Benzin-ExtraBold.woff2') format('woff2'),
+        url('font/Benzin-ExtraBold.woff') format('woff'),
+        url('font/Benzin-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Benzin';
+    src: url('font/Benzin-Bold.eot');
+    src: local('☞Benzin Bold'), local('Benzin-Bold'),
+        url('font/Benzin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Benzin-Bold.woff2') format('woff2'),
+        url('font/Benzin-Bold.woff') format('woff'),
+        url('font/Benzin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Benzin';
+    src: url('font/Benzin-Semibold.eot');
+    src: local('☞Benzin Semibold'), local('Benzin-Semibold'),
+        url('font/Benzin-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('font/Benzin-Semibold.woff2') format('woff2'),
+        url('font/Benzin-Semibold.woff') format('woff'),
+        url('font/Benzin-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
