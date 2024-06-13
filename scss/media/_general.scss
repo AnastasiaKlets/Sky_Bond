@@ -1,0 +1,29 @@
+@import 'title';
+@import "header";
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+    transition: 1s;
+}
+.flex{
+	display: flex;
+}
+.trans-5{
+  transition: 0.5s all;
+}
+.trans-30{
+  transition: 3s all;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 86.94%;
+    }
+    .pageUp {
+      width: 37px;
+      height: 37px;
+
+    }
+}

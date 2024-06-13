@@ -1,0 +1,40 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 64px;
+	padding: 3px;
+	border: none;
+	border-radius: 10px;
+	background: linear-gradient(90deg, #d54444 0%, #ff0101 100%);
+	cursor: pointer;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	transition: .5s;
+
+}
+.button:hover{
+	box-shadow: 0 0 0 0 rgba(255, 7, 7, 0.42);
+	transition: .5s;
+}
+.button_animation:hover{
+	transform: scale(0.9);
+	transition: .5s;
+	-moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+}
+.button_animation{
+	animation: shadow 1.5s ease infinite;
+}
+
+@keyframes shadow {
+	0% {
+		box-shadow: 0 0 0 0 rgba(255, 7, 7, 0.42);
+	}
+
+	100% {
+		box-shadow: 0 0 0 10px rgba(55, 141, 250, 0);
+	}
+}

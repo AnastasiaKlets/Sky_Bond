@@ -1,10 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Sky_Bond</title>
+    <title>Sky Bond</title>
+    <link rel="icon" type="image/x-icon" href="icons/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="scss/jquery.fancybox.min.css">
 </head>
 <body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <a href="#" class="header_wrapper_logo">
+                    <img src="icons/logo.png" alt="Sky Bonds logo">
+                </a>
+                <div class="header_wrapper_links">
+                    <a href="#Company" class="title medium title_active">Компании</a>
+                    <a href="#Survey" class="title medium title_active">Услуги</a>
+                    <a href="#Contacts" class="title medium title_active">Контакты</a>
+                </div>
+                <div class="header_wrapper_soc">
+                    <a href="https://t.me/s/skybond">
+                        <img src="icons/telegram.svg" alt="telegram">
+                    </a>
+                    <a href="https://www.youtube.com/@user-hc5hr9ch5e">
+                        <img src="icons/youTube.svg" alt="youTube">
+                    </a>
+                    <a href="https://www.instagram.com/cleaning.profc?igsh=MWcwMnkycXBiaXRueA%3D">
+                        <img src="icons/instagram.svg" alt="instagram">
+                    </a>
+                </div>
+                <input  type="checkbox" id="hidden-checker">
+                <div class="header_wrapper_phone block">
+                    <label class="header_wrapper_phone_img block-toggler" for="hidden-checker"></label>
+                    <a href="tel:88129177047">
+                        <span class="title medium title_active">
+                            8 (812) 917-70-47
+                        </span>
+                    </a>
+                </div>
+                <div class="hidden-block">
+                    <a href="tel:88129177047">
+                        <span class="title medium ">
+                            8 (812) 917-70-47
+                        </span>
+                    </a>
+                </div>
+                <button data-consult class="button button_animation header_wrapper_btn">
+                    Запись на консультацию
+                </button>
 
+                <div class="burger-menu">
+                    <a href="" class="burger-menu_button">
+                        <spun class="burger-menu_lines"></spun>
+                    </a>
+                    <nav class="burger-menu_nav">
+                        <div class="burger-menu_nav_links">
+                            <a href="#Company" class="title medium ">Компании</a>
+                            <a href="#Survey" class="title medium ">Услуги</a>
+                            <a href="#Contacts" class="title medium ">Контакты</a>
+                        </div>
+                        <button data-consult class="button">
+                            Запись на консультацию
+                        </button>
+                    </nav>
+                    <div class="burger-menu_overlay"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="block">
+
+    </div>
+
+    <main id="Company">
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
