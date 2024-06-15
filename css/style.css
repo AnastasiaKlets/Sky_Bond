@@ -316,6 +316,14 @@ body {
     background: url("../../icons/phone.svg") no-repeat no-repeat center/80%;
   }
 }
+#hidden-checker {
+  display: none;
+}
+
+.hidden-block {
+  display: none;
+}
+
 @media (max-width: 1720px) {
   .title {
     font-size: 23px;
@@ -701,7 +709,7 @@ body {
     background-color: #093964;
   }
   .burger-menu_nav {
-    padding-top: 75px;
+    padding-top: 25px;
     position: fixed;
     top: 0;
     z-index: 11;
@@ -763,6 +771,7 @@ body {
     position: relative;
   }
   .hidden-block {
+    display: inline;
     width: fit-content;
     padding: 20px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
