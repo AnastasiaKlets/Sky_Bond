@@ -1,0 +1,30 @@
+.passiveIncome{
+  padding-top: 180px;
+  &_wrapper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: stretch;
+    &_img{
+      width: 100%;
+    }
+    &_text{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      &_btn{
+        width: 60%;
+      }
+      &_text{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        &_1{
+          padding-left: 30px;
+        }
+        &_2{
+           padding-left: 70px;
+        }
+      }
+    }
+  }
+}
