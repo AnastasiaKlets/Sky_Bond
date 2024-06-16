@@ -1,0 +1,154 @@
+@media (max-width:1750px) {
+  .briefcase{
+    &_wrapper{
+      &_portfel{
+        gap: 55px;
+        &_title{
+          width: 90%;
+        }
+        &_blocks{
+          gap: 15px;
+          &_block{
+            gap: 15px;
+            padding: 30px 0 140px 30px;
+          }
+        }
+        &_title2{
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1550px) {
+  .briefcase{
+    &_wrapper{
+      &_portfel{
+        gap: 45px;
+        &_title{
+          width: 90%;
+        }
+        &_blocks{
+          gap: 15px;
+          &_block{
+            gap: 15px;
+            padding: 20px 0 120px 20px;
+          }
+        }
+        &_title2{
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1440px) {
+  .briefcase{
+    &_wrapper{
+      &_portfel{
+        gap: 45px;
+        &_title{
+          width: 90%;
+        }
+        &_blocks{
+          gap: 15px;
+          &_block{
+            gap: 10px;
+            padding: 20px 0 90px 20px;
+          }
+        }
+        &_title2{
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1260px) {
+  .briefcase{
+    &_wrapper{
+      &_portfel{
+        gap: 45px;
+        &_title{
+          width: 100%;
+        }
+        &_blocks{
+          gap: 15px;
+          &_block{
+            gap: 10px;
+            padding: 20px 0 65px 20px;
+          }
+        }
+        &_title2{
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1070px) {
+  .briefcase{
+    &_wrapper{
+      &_portfel{
+        gap: 45px;
+        &_title{
+          width: 100%;
+        }
+        &_blocks{
+          gap: 15px;
+          &_block{
+            gap: 10px;
+            padding: 20px 0 45px 10px;
+          }
+        }
+        &_title2{
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .briefcase{
+    margin-top: 50px;
+    &_wrapper{
+      &_portfel{
+        gap: 25px;
+        &_title{
+          width: 100%;
+        }
+        &_blocks{
+          gap: 15px;
+          display: flex;
+          flex-direction: column;
+          &_block{
+            gap: 10px;
+            padding: 20px 0 45px 10px;
+          }
+        }
+        &_title2{
+          gap: 10px;
+        }
+      }
+      &_inf{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &_text{
+          margin-top: -10px;
+        }
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+
+

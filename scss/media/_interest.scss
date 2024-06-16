@@ -84,6 +84,11 @@
       }
       &_text{
         gap: 17px;
+        h2{
+          br{
+            display: none;
+          }
+        }
       }
     }
   }

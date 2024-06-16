@@ -1,0 +1,32 @@
+.offer{
+  &_wrapper{
+     display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &_line{
+      background: #093964;
+      height: 1px;
+      width: 100%;
+    }
+
+    &_title{
+      margin-bottom: 20px;
+    }
+    &_text2{
+     display: flex;
+      width: 100%;
+      margin-bottom: 40px;
+      justify-content: flex-end;
+    }
+    &_text3{
+      margin-top: 40px;
+    }
+    button{
+      width: 30%;
+    }
+  }
+  video{
+    width: 100%
+  }
+}

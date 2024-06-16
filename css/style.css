@@ -416,6 +416,87 @@ body {
   gap: 10px;
 }
 
+.offer_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.offer_wrapper_line {
+  background: #093964;
+  height: 1px;
+  width: 100%;
+}
+.offer_wrapper_title {
+  margin-bottom: 20px;
+}
+.offer_wrapper_text2 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  justify-content: flex-end;
+}
+.offer_wrapper_text3 {
+  margin-top: 40px;
+}
+.offer_wrapper button {
+  width: 30%;
+}
+.offer video {
+  width: 100%;
+}
+
+.briefcase {
+  margin-top: 100px;
+}
+.briefcase_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.briefcase_wrapper_portfel {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+.briefcase_wrapper_portfel_title {
+  width: 90%;
+}
+.briefcase_wrapper_portfel_blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.briefcase_wrapper_portfel_blocks_block {
+  background: url("../../img/briefcase/portfel.png") no-repeat center/100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 0 140px 30px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.briefcase_wrapper_portfel_blocks_block:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.briefcase_wrapper_portfel_title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.briefcase_wrapper_inf {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.briefcase_wrapper_inf_text {
+  margin-top: -40px;
+}
+.briefcase_wrapper_inf img {
+  width: 100%;
+}
+
 @media (max-width: 1720px) {
   .title {
     font-size: 23px;
@@ -504,7 +585,7 @@ body {
     font-size: 49px;
   }
   .title_70 {
-    font-size: 63px;
+    font-size: 58px;
   }
   .title_85 {
     font-size: 62px;
@@ -551,7 +632,7 @@ body {
     font-size: 44px;
   }
   .title_70 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .title_85 {
     font-size: 55px;
@@ -598,7 +679,7 @@ body {
     font-size: 39px;
   }
   .title_70 {
-    font-size: 57px;
+    font-size: 32px;
   }
   .title_85 {
     font-size: 47px;
@@ -1041,6 +1122,153 @@ body {
   }
   .interest_wrapper_text {
     gap: 17px;
+  }
+  .interest_wrapper_text h2 br {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .offer_wrapper {
+    gap: 20px;
+  }
+  .offer_wrapper_title {
+    margin-bottom: 0;
+  }
+  .offer_wrapper_text2 {
+    margin-bottom: 20px;
+    justify-content: flex-start;
+  }
+  .offer_wrapper_text3 {
+    margin-top: 16px;
+    width: 77%;
+  }
+  .offer_wrapper button {
+    width: 100%;
+    height: 55px;
+  }
+}
+@media (max-width: 1750px) {
+  .briefcase_wrapper_portfel {
+    gap: 55px;
+  }
+  .briefcase_wrapper_portfel_title {
+    width: 90%;
+  }
+  .briefcase_wrapper_portfel_blocks {
+    gap: 15px;
+  }
+  .briefcase_wrapper_portfel_blocks_block {
+    gap: 15px;
+    padding: 30px 0 140px 30px;
+  }
+  .briefcase_wrapper_portfel_title2 {
+    gap: 10px;
+  }
+}
+@media (max-width: 1550px) {
+  .briefcase_wrapper_portfel {
+    gap: 45px;
+  }
+  .briefcase_wrapper_portfel_title {
+    width: 90%;
+  }
+  .briefcase_wrapper_portfel_blocks {
+    gap: 15px;
+  }
+  .briefcase_wrapper_portfel_blocks_block {
+    gap: 15px;
+    padding: 20px 0 120px 20px;
+  }
+  .briefcase_wrapper_portfel_title2 {
+    gap: 10px;
+  }
+}
+@media (max-width: 1440px) {
+  .briefcase_wrapper_portfel {
+    gap: 45px;
+  }
+  .briefcase_wrapper_portfel_title {
+    width: 90%;
+  }
+  .briefcase_wrapper_portfel_blocks {
+    gap: 15px;
+  }
+  .briefcase_wrapper_portfel_blocks_block {
+    gap: 10px;
+    padding: 20px 0 90px 20px;
+  }
+  .briefcase_wrapper_portfel_title2 {
+    gap: 10px;
+  }
+}
+@media (max-width: 1260px) {
+  .briefcase_wrapper_portfel {
+    gap: 45px;
+  }
+  .briefcase_wrapper_portfel_title {
+    width: 100%;
+  }
+  .briefcase_wrapper_portfel_blocks {
+    gap: 15px;
+  }
+  .briefcase_wrapper_portfel_blocks_block {
+    gap: 10px;
+    padding: 20px 0 65px 20px;
+  }
+  .briefcase_wrapper_portfel_title2 {
+    gap: 10px;
+  }
+}
+@media (max-width: 1070px) {
+  .briefcase_wrapper_portfel {
+    gap: 45px;
+  }
+  .briefcase_wrapper_portfel_title {
+    width: 100%;
+  }
+  .briefcase_wrapper_portfel_blocks {
+    gap: 15px;
+  }
+  .briefcase_wrapper_portfel_blocks_block {
+    gap: 10px;
+    padding: 20px 0 45px 10px;
+  }
+  .briefcase_wrapper_portfel_title2 {
+    gap: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .briefcase {
+    margin-top: 50px;
+  }
+  .briefcase_wrapper_portfel {
+    gap: 25px;
+  }
+  .briefcase_wrapper_portfel_title {
+    width: 100%;
+  }
+  .briefcase_wrapper_portfel_blocks {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .briefcase_wrapper_portfel_blocks_block {
+    gap: 10px;
+    padding: 20px 0 45px 10px;
+  }
+  .briefcase_wrapper_portfel_title2 {
+    gap: 10px;
+  }
+  .briefcase_wrapper_inf {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .briefcase_wrapper_inf_text {
+    margin-top: -10px;
+  }
+  .briefcase_wrapper_inf img {
+    width: 100%;
   }
 }
 .hide {
