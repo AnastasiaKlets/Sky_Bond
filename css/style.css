@@ -362,6 +362,60 @@ body {
   padding-left: 70px;
 }
 
+.interest {
+  background: url("../../img/interest_Background.png") no-repeat center/100%;
+  padding: 147px 0;
+}
+.interest_wrapper {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  justify-content: space-between;
+}
+.interest_wrapper_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.interest_wrapper_text_line {
+  background: #4f4c4d;
+  height: 1px;
+  width: 100%;
+}
+.interest_wrapper_table {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.interest_wrapper_table_colum {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  justify-content: space-between;
+}
+.interest_wrapper_table_col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.interest_wrapper_table_col_block {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+}
+.interest_wrapper_table_row {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 @media (max-width: 1720px) {
   .title {
     font-size: 23px;
@@ -909,6 +963,84 @@ body {
   }
   .passiveIncome_wrapper_text_text_2 {
     font-size: 12px;
+  }
+}
+@media (max-width: 1550px) {
+  .interest_wrapper_table {
+    gap: 17px;
+  }
+  .interest_wrapper_table_col {
+    gap: 15px;
+  }
+  .interest_wrapper_table_col_block {
+    padding: 30px;
+    gap: 10px;
+  }
+  .interest_wrapper_table_row {
+    padding: 30px;
+    gap: 10px;
+  }
+}
+@media (max-width: 1440px) {
+  .interest {
+    padding: 120px 0;
+  }
+  .interest_wrapper_table_col_block {
+    padding: 15px;
+  }
+  .interest_wrapper_table_row {
+    padding: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .interest {
+    padding: 100px 0;
+  }
+  .interest_wrapper_table {
+    gap: 10px;
+  }
+  .interest_wrapper_table_col {
+    gap: 8px;
+  }
+  .interest_wrapper_table_col_block {
+    padding: 10px;
+    gap: 5px;
+  }
+  .interest_wrapper_table_row {
+    padding: 10px;
+    gap: 5px;
+  }
+}
+@media (max-width: 992px) {
+  .interest {
+    padding: 50px 0;
+  }
+  .interest_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .interest_wrapper_table {
+    gap: 10px;
+  }
+  .interest_wrapper_table_colum {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interest_wrapper_table_col {
+    gap: 10px;
+  }
+  .interest_wrapper_table_col_block {
+    padding: 10px;
+    gap: 5px;
+  }
+  .interest_wrapper_table_row {
+    padding: 10px;
+    gap: 5px;
+  }
+  .interest_wrapper_text {
+    gap: 17px;
   }
 }
 .hide {

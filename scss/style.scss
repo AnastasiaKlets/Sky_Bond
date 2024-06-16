@@ -1,5 +1,6 @@
 @import 'base/fonts';
 
+
 * {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -26,4 +27,5 @@ body{
 @import "blocks/button";
 @import 'blocks/header';
 @import "blocks/passiveIncome";
+@import "blocks/interest";
 @import 'media/general';

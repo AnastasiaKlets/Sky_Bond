@@ -1,0 +1,98 @@
+@media (max-width:1550px) {
+  .interest{
+    &_wrapper{
+      &_table{
+        gap: 17px;
+        &_col{
+          gap: 15px;
+          &_block{
+            padding: 30px;
+            gap: 10px;
+          }
+        }
+        &_row{
+          padding: 30px;
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1440px) {
+  .interest{
+    padding: 120px 0;
+    &_wrapper{
+      &_table{
+        &_col{
+          &_block{
+            padding: 15px;
+          }
+        }
+        &_row{
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .interest{
+    padding: 100px 0;
+    &_wrapper{
+      &_table{
+        gap: 10px;
+        &_col{
+          gap: 8px;
+          &_block{
+            padding: 10px;
+            gap: 5px;
+          }
+        }
+        &_row{
+          padding: 10px;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .interest{
+    padding: 50px 0;
+    &_wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      &_table{
+        gap: 10px;
+        &_colum{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        &_col{
+          gap: 10px;
+          &_block{
+            padding: 10px;
+            gap: 5px;
+          }
+        }
+        &_row{
+          padding: 10px;
+          gap: 5px;
+        }
+      }
+      &_text{
+        gap: 17px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+
+
