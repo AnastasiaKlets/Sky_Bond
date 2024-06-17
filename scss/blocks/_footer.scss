@@ -1,0 +1,37 @@
+.footer{
+  background: #000;
+  margin-top: 85px;
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding-bottom: 27px;
+    &_line{
+      background: #fff;
+      height: 2px;
+      width: 100%;
+      margin-top: 50px;
+    }
+    span{
+      color: #fff;
+    }
+    a{
+      color: #fff;
+    }
+    &_inf{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      gap: 28%;
+      &_menu{
+        display: flex;
+        gap: 20px;
+      }
+      a{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
