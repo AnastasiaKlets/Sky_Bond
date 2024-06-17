@@ -197,7 +197,9 @@
                     </h2>
                 </div>
             </div>
-            <video src="video/offer.mp4" poster="img/offer.png" controls></video>
+            <video controls autoplay muted id="videoId">
+            <source src="video/offer.mp4" type="video/mp4">
+            </video>
             <div class="container">
                 <div class="offer_wrapper">
                     <span class="title title_55 offer_wrapper_text3">
@@ -363,7 +365,27 @@
                 </div>
             </div>
         </section>
-
+        <section class="getConsultation">
+            <div class="container">
+                <div class="getConsultation_wrapper">
+                    <img src="img/bond.webp" alt="getConsultation img" class="getConsultation_wrapper_img">
+                    <form class="getConsultation_form" action="#">
+                        <span class="title title_64">Получить консультацию</span>
+                        <input class="getConsultation_form_text" name="name" type="text" placeholder="Введите имя" required>
+                        <input class="getConsultation_form_text" name="phone" type="text" placeholder="Ваш номер телефона" required>
+                        <input class="getConsultation_form_mess" name="message" type="text" placeholder="Введите сообщение" required>
+                        <input type="hidden" name="theme" value="Заявка">
+                        <input type="hidden" name="utm_source" class="utm_source" value="">
+                        <input type="hidden" name="utm_medium" class="utm_medium" value="">
+                        <input type="hidden" name="utm_campaign" class="utm_campaign" value="">
+                        <input type="hidden" name="utm_content" class="utm_content" value="">
+                        <input type="hidden" name="utm_term" class="utm_term" value="">
+                        <button type="submit" onclick="" class="button button_animation">Хочу выгодно инвестировать</button>
+                    </form>
+                    <img src="img/Mail.png" alt="mail" class="getConsultation_wrapper_mail">
+                </div>
+            </div>
+        </section>
 
         <section class="map">
             <div class="container">
@@ -443,6 +465,63 @@
             </div>
         </div>
     </footer>
+    <div class="consult">
+        <div class="consult_modal">
+            <div class="consult_wrapper">
+                <div class="consult_close"><img data-close src="icons/close.svg" alt="close"></div>
+                <div class="consult_content">
+                    <div class="title title_40 bold">Заказать звонок</div>
+                    <div class="title title_24">Введите ваш номер телефона и мы Вам перезвоним в течение 10 минут</div>
+                    <form class="consult_form" action="#">
+                        <input type="hidden" name="theme" value="Заказ звонка">
+                        <input type="hidden" name="utm_source" class="utm_source" value="">
+                        <input type="hidden" name="utm_medium" class="utm_medium" value="">
+                        <input type="hidden" name="utm_campaign" class="utm_campaign" value="">
+                        <input type="hidden" name="utm_content" class="utm_content" value="">
+                        <input type="hidden" name="utm_term" class="utm_term" value="">
+                        <input type="text" name="phone" placeholder="+375 __ ___ __ __" class="consult_form_input" required>
+                        <label for="consult_checkbox" class="consult_label">
+                            <input type="checkbox" name="checkbox" id="consult_checkbox" class="consult_checkbox" required checked>
+                            <span class="consult_view">
+                                <div class="consult_icon">
+                                    <img src="icons/policy.svg" alt="policy">
+                                </div>
+                            </span>
+                            <div class="title title_16"><span>Вы соглашаетесь на&nbsp; <span class="policy">обработку персональных данных</span></span></div>
+                        </label>
+                        <button type="submit" class="button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            <div class="consult_image">
+                <img src="img/glove.png" alt="glove">
+            </div>
+        </div>
+    </div>
+<!--    <div class="survey thanks">-->
+<!--        <div class="survey_modal">-->
+<!--            <div class="survey_wrapper">-->
+<!--                <div class="survey_content">-->
+<!--                    <div class="survey_header">-->
+<!--                        <div class="title title_40 medium">Спасибо!<br>Ваш расчёт и бонусы успешно оформлены!</div>-->
+<!--                        <div class="title title_20 medium">Мы свяжемся с Вами в ближайшее время по указанному телефону!</div>-->
+<!--                    </div>-->
+<!--                    <div class="survey_result_body">-->
+<!--                        <button class="button" data-close type="submit">Закрыть</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="survey_banner">-->
+<!--                    <div class="survey_banner_comment">-->
+<!--                        <div class="survey_banner_images">-->
+<!--                            <img src="icons/user.svg" alt="user">-->
+<!--                            <img src="icons/hint.svg" alt="hint">-->
+<!--                        </div>-->
+<!--                        <div class="title title_14">Клинер приезжает со своим инвентарём и средствами для уборки</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
