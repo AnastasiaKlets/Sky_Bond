@@ -1,0 +1,28 @@
+.job{
+  margin-top: 100px;
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    &_blocks{
+      display: flex;
+      &_block{
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        padding: 40px 20px 250px;
+        width: 100%;
+      }
+      &_img1{
+        background: url("../../img/job/job.png")  no-repeat center/100%;
+      }
+      &_img2{
+        background: url("../../img/job/job2.png")  no-repeat center/100%;
+      }
+      &_img3{
+        background: url("../../img/job/job3.png")  no-repeat center/100%;
+      }
+    }
+  }
+}

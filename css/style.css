@@ -142,7 +142,7 @@ body {
   font-size: 64px;
 }
 .title_70 {
-  font-size: 70px;
+  font-size: 59px;
 }
 .title_85 {
   font-size: 85px;
@@ -497,7 +497,76 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1720px) {
+.job {
+  margin-top: 100px;
+}
+.job_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+}
+.job_wrapper_blocks {
+  display: flex;
+}
+.job_wrapper_blocks_block {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding: 40px 20px 250px;
+  width: 100%;
+}
+.job_wrapper_blocks_img1 {
+  background: url("../../img/job/job.png") no-repeat center/100%;
+}
+.job_wrapper_blocks_img2 {
+  background: url("../../img/job/job2.png") no-repeat center/100%;
+}
+.job_wrapper_blocks_img3 {
+  background: url("../../img/job/job3.png") no-repeat center/100%;
+}
+
+.map {
+  margin-top: 150px;
+}
+.map_wrapper {
+  display: grid;
+  grid-template-columns: 34% 63%;
+  justify-content: space-between;
+  justify-items: end;
+}
+.map_wrapper_contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.map_wrapper_contacts_img {
+  width: 25%;
+}
+.map_wrapper_contacts_cos {
+  display: flex;
+  gap: 15px;
+}
+.map_wrapper_contacts_cos img {
+  width: 100%;
+}
+.map_wrapper_contacts_inf {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.map_wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+.map_line {
+  background: #093964;
+  height: 3px;
+  width: 100%;
+  margin-top: 45px;
+}
+
+@media (max-width: 1740px) {
   .title {
     font-size: 23px;
   }
@@ -538,7 +607,7 @@ body {
     font-size: 55px;
   }
   .title_70 {
-    font-size: 66px;
+    font-size: 55px;
   }
   .title_85 {
     font-size: 70px;
@@ -585,13 +654,13 @@ body {
     font-size: 49px;
   }
   .title_70 {
-    font-size: 58px;
+    font-size: 52px;
   }
   .title_85 {
     font-size: 62px;
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1460px) {
   .title {
     font-size: 20px;
   }
@@ -1268,6 +1337,52 @@ body {
     margin-top: -10px;
   }
   .briefcase_wrapper_inf img {
+    width: 100%;
+  }
+}
+@media (max-width: 1440px) {
+  .job {
+    margin-top: 100px;
+  }
+  .job_wrapper {
+    gap: 33px;
+  }
+  .job_wrapper_blocks_block {
+    gap: 33px;
+    padding: 40px 20px 170px;
+  }
+}
+@media (max-width: 1200px) {
+  .job {
+    margin-top: 100px;
+  }
+  .job_wrapper {
+    gap: 33px;
+  }
+  .job_wrapper_blocks_block {
+    gap: 10px;
+    padding: 30px 20px 80px;
+  }
+}
+@media (max-width: 992px) {
+  .job {
+    margin-top: 100px;
+  }
+  .job_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+  }
+  .job_wrapper_blocks {
+    display: flex;
+    flex-direction: column;
+  }
+  .job_wrapper_blocks_block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3px 0 156px 0;
     width: 100%;
   }
 }
