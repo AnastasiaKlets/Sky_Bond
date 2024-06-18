@@ -1,0 +1,61 @@
+.CASES{
+  margin-top: 120px;
+  &_wrapper{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    &_tabs{
+      display: grid;
+      grid-template-columns: 34% 64%;
+      justify-content: space-between;
+      &_button{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        button{
+          border: 1px dashed #093964;
+          border-radius: 50px;
+          height: 75px;
+          padding: 0 15px;
+          cursor: pointer;
+        }
+        &_btn{
+          background: rgba(9, 57, 100, 0);
+        }
+      }
+      &_block{
+        width: 100%;
+        background: #f1f8fe;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        &_inf{
+          display: flex;
+          flex-direction: column;
+          width: 88%;
+          align-items: center;
+          padding: 50px 0;
+          img{
+            width: 100%;
+            border-radius: 20px;
+            padding-bottom: 15px;
+          }
+          &_text{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+          a{
+            width: 100%;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.button_CASES{
+    background: #ddeefe;
+}

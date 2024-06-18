@@ -1,0 +1,40 @@
+
+@media (max-width: 992px) {
+  .CASES{
+    margin-top: 50px;
+    &_wrapper{
+      gap: 15px;
+      &_tabs{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        &_button{
+          gap: 8px;
+          button{
+            height: 45px;
+            padding: 0 10px;
+          }
+        }
+        &_block{
+          &_inf{
+            padding: 30px 0;
+            img{
+              padding-bottom: 10px;
+            }
+            &_text{
+              gap: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+
+

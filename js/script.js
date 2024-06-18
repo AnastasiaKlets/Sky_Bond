@@ -77,6 +77,9 @@ function openCity(cityName) {
     document.getElementById('services2').classList.remove('button_green1');
     document.getElementById('services3').classList.remove('button_green1');
     document.getElementById('services4').classList.remove('button_green1');
+    document.getElementById('services5').classList.remove('button_CASES');
+    document.getElementById('services6').classList.remove('button_CASES');
+    document.getElementById('services7').classList.remove('button_CASES');
     for (i = 0; i < x.length; i++) {
 
         x[i].style.display = "none";
@@ -91,6 +94,15 @@ function openCity(cityName) {
         }
         if(y==="doc4"){
             document.getElementById('services4').classList.add('button_green1');
+        }
+        if(y==="doc5"){
+            document.getElementById('services5').classList.add('button_CASES');
+        }
+        if(y==="doc6"){
+            document.getElementById('services6').classList.add('button_CASES');
+        }
+        if(y==="doc7"){
+            document.getElementById('services7').classList.add('button_CASES');
         }
     }
     document.getElementById(cityName).style.display = "block";
