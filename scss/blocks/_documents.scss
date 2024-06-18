@@ -1,0 +1,42 @@
+.documents {
+    padding-top: 100px;
+    &_container {
+        position: relative;
+        margin-top: 74px;
+    }
+    &_wrapper {
+        overflow: hidden;
+    }
+    &_field {
+        display: flex;
+    }
+    &_slide {
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+    }
+    &_indicators {
+        display: none;
+    }
+    &_prev, &_next {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 2.8%;
+        img {
+            width: 100%;
+        }
+    }
+    &_prev {
+        left: -4%;
+    }
+    &_next {
+        right: -4%;
+    }
+    .rotate {
+        transform: rotate(180deg);
+    }
+}

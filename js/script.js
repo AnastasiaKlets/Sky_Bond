@@ -92,18 +92,18 @@ if (document.querySelector('.survey') != null) {
     modal('[data-survey]', 'data-close', '.survey');
 }
 
-if (document.querySelector('.gallery_field') != null) {
+if (document.querySelector('.documents_field') != null) {
     slider({
-        containerSelector: '.gallery_image',
-        slideSelector: '.gallery_slide',
-        nextSlideSelector: '.gallery_next',
-        prevSlideSelector: '.gallery_prev',
-        wrapperSelector: '.gallery_wrapper',
-        fieldSelector: '.gallery_field',
-        indicatorsClass: 'gallery_indicators',
-        elementsPerPage: 3,
+        containerSelector: '.documents_container',
+        slideSelector: '.documents_slide',
+        prevSlideSelector: '.documents_prev',
+        nextSlideSelector: '.documents_next',
+        wrapperSelector: '.documents_wrapper',
+        fieldSelector: '.documents_field',
+        elementsPerPage: 4,
         elementsPerPageMobile: 1,
-        columnGap: 10,
+        indicatorsClass: `documents_indicators`,
+        columnGap: 30,
         swipe: true,
     });
 }
