@@ -72,9 +72,26 @@ if (document.querySelector('.documents_field') != null) {
 function openCity(cityName) {
     let i;
     let x = document.getElementsByClassName("city");
-    let y = cityName.length
+    let y = cityName
+    document.getElementById('services1').classList.remove('button_green1');
+    document.getElementById('services2').classList.remove('button_green1');
+    document.getElementById('services3').classList.remove('button_green1');
+    document.getElementById('services4').classList.remove('button_green1');
     for (i = 0; i < x.length; i++) {
+
         x[i].style.display = "none";
+        if(y==="doc"){
+            document.getElementById('services1').classList.add('button_green1');
+        }
+        if(y==="doc2"){
+            document.getElementById('services2').classList.add('button_green1');
+        }
+        if(y==="doc3"){
+            document.getElementById('services3').classList.add('button_green1');
+        }
+        if(y==="doc4"){
+            document.getElementById('services4').classList.add('button_green1');
+        }
     }
     document.getElementById(cityName).style.display = "block";
 }
