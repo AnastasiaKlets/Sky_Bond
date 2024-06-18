@@ -1,9 +1,8 @@
+//функция для хедера (липкий)
 let header = $('.header'),
     scrollPrev = 0;
-
 $(window).scroll(function() {
     let scrolled = $(window).scrollTop();
-
     if ( scrolled > 100 && scrolled > scrollPrev ) {
         header.addClass('out');
     } else {
@@ -12,14 +11,13 @@ $(window).scroll(function() {
     scrollPrev = scrolled;
 });
 
+
+//маска для номера
 $('input[name="phone"]').mask("+375(99)999-99-99");
 
-let baseUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
-let newUrl = baseUrl + '?utm_source=yandex&utm_medium=cpc&utm_campaign=%7Bcampaign_name_lat%7D&utm_content=%7Bad_id%7D&utm_term=%7Bkeyword%7D';
-history.pushState(null, null, newUrl);
 
+//метки
 let utms_names = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
-
 utms_names.forEach(name => {
     let utm_inputs = document.querySelectorAll(`.${name}`);
     utm_inputs.forEach(input => {
@@ -27,23 +25,20 @@ utms_names.forEach(name => {
     });
 });
 
+//функция бургер меню
 function burgerMenu(selector) {
     let menu = $(selector);
     let button = menu.find('.burger-menu_button', '.burger-menu_lines');
     let links = menu.find('.burger-menu_link');
     let overlay = menu.find('.burger-menu_overlay');
-
     button.on('click', (e) => {
         e.preventDefault();
         toggleMenu();
     });
-
     links.on('click', () => toggleMenu());
     overlay.on('click', () => toggleMenu());
-
     function toggleMenu(){
         menu.toggleClass('burger-menu_active');
-
         if (menu.hasClass('burger-menu_active')) {
             $('body').css('overlow', 'hidden');
         } else {
@@ -51,11 +46,27 @@ function burgerMenu(selector) {
         }
     }
 }
-
 burgerMenu('.burger-menu');
 
+
+
+
+
+//функция для табов
+function openCity(cityName) {
+    let i;
+    let x = document.getElementsByClassName("city");
+    let y = cityName.length
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(cityName).style.display = "block";
+}
+
+//модалки
 function openModal(modalSelector) {
     const modal = document.querySelector(modalSelector);
+    console.log(modal)
     modal.classList.add('show');
     modal.classList.remove('hide');
     document.body.style.overflow = 'hidden';
@@ -88,105 +99,18 @@ function modal(triggerSelector, closeSelector, modalSelector) {
     });
 }
 
-if (document.querySelector('.survey') != null) {
-    modal('[data-survey]', 'data-close', '.survey');
-}
-
-if (document.querySelector('.gallery_field') != null) {
-    slider({
-        containerSelector: '.gallery_image',
-        slideSelector: '.gallery_slide',
-        nextSlideSelector: '.gallery_next',
-        prevSlideSelector: '.gallery_prev',
-        wrapperSelector: '.gallery_wrapper',
-        fieldSelector: '.gallery_field',
-        indicatorsClass: 'gallery_indicators',
-        elementsPerPage: 3,
-        elementsPerPageMobile: 1,
-        columnGap: 10,
-        swipe: true,
-    });
-}
-
 if (document.querySelector('.consult') != null) {
     modal('[data-consult]', 'data-close', '.consult');
     modal('[data-thanks]', 'data-close', '.thanks');
 }
 
-const survey_buttons = document.querySelectorAll('.button.next, .button_back');
-
-survey_buttons.forEach(button => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        let next;
-        let filled = false;
-        let error = button.closest('.survey_wrapper').querySelector('.survey_error');
-
-        if (button.classList.contains('next')) {
-            let inputs = e.target.closest('.survey_wrapper').querySelectorAll('input');
-            inputs.forEach(input => {
-                if (input.type == 'radio' || input.type == 'checkbox') {
-                    if (input.checked) {
-                        filled = true;
-                    }
-                }
-                if (input.type == 'number') {
-                    if (input.value != '') {
-                        filled = true;
-                    }
-                }
-            });
-            if (!filled) {
-                error.classList.add('flex');
-                setTimeout(() => error.classList.remove('flex'), 2000);
-            }
-        } else {
-            error.classList.remove('flex');
-        }
-
-        if ((button.classList.contains('next') && filled) || button.classList.contains('button_back')) {
-            if (e.target.textContent) {
-                next = e.target.getAttribute('data-show');
-                e.target.parentElement.parentElement.parentElement.style.display = 'none';
-            } else {
-                next = e.target.closest('button').getAttribute('data-show');
-                e.target.closest('button').parentElement.parentElement.parentElement.style.display = 'none';
-            }
-            if (next.includes('2-1')) {
-                let radios = document.querySelectorAll('input[name="type"]');
-                for (let radio of radios) {
-                    if (radio.checked && radio.value == 'Химчистка') {
-                        next = next.slice(0, -1) + '2';
-                        document.getElementById('place').textContent = '';
-                    } else {
-                        document.getElementById('place').textContent = 'помещения ';
-                    }
-                }
-            }
-            if (next.includes('3-1')) {
-                let radios = document.querySelectorAll('input[name="material"]');
-                for (let radio of radios) {
-                    if (radio.checked && radio.value == 'Мягкая мебель') {
-                        next = next.slice(0, -1) + '2';
-                    }
-                }
-            }
-
-            if (error) {
-                error.classList.remove('flex');
-            }
-            document.querySelector(`#${next}`).style.display = 'flex';
-        }
-    });
-});
-
+// отправка формы
 $("form").submit(function (event) {
     event.preventDefault();
     let name = event.target.classList.value.slice(0, -5);
     let formData = new FormData(document.querySelector(`.${name}_form`));
     sendPhp(name, formData);
 });
-
 function sendPhp(name, data) {
     $.ajax({
         url: `./php/send_${name}.php`,
@@ -201,6 +125,7 @@ function sendPhp(name, data) {
             if (name == 'survey' || name == 'consult' || name == 'team') {
                 closeModal(`.${name}`)
             }
+            console.log(222)
             openModal('.thanks');
             setTimeout(function(){
                 closeModal('.thanks');
