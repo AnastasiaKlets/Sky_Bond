@@ -12,13 +12,12 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding: 21px 27px;
-        width: 67.28%;
-        max-width: 942px;
+        padding: 0 60px 0;
+        width: 90%;
+        max-width: 1766px;;
         height: calc(95vh - 42px);
-        max-height: 514px;
-        border-radius: 10px;
-        background: #1e3018;
+        max-height: 993px;;
+        background: #ffffff;
     }
     &_close {
         position: absolute;
@@ -33,25 +32,31 @@
         }
     }
     &_wrapper {
-        position: relative;
         overflow-y: auto;
-        padding: 24px 51px;
         height: calc(100% - 48px);
-        border: 1px solid #fff;
-        border-radius: 10px;
+        display: flex;
+        gap: 20px;
     }
     &_image {
-        position: absolute;
-        right: 9.44%;
-        bottom: -4px;
-        width: 18.5%;
+        width: 60%;
         img {
             width: 100%;
         }
     }
     &_content {
-        padding-top: 22px;
+        padding-top: 40px;
+        margin-left: 30px;
         width: 69%;
+        display: flex;
+        flex-direction: column;
+
+        &_title{
+            margin-bottom: 50px;
+        }
+        &_text{
+            margin-bottom: 30px;
+            width: 80%;
+        }
     }
     &_form {
         margin-top: 23px;
@@ -69,21 +74,23 @@
             color: rgba(0, 0, 0, 0.6);
             background: #faf9fb;
             outline: none;
+            border: none;
             &::placeholder {
                 font-weight: 400;
                 font-size: 20px;
                 color: rgba(0, 0, 0, 0.6);
             }
+            &_dop{
+                height: 161px;
+            }
+        }
+        input:focus{
+            border: 1px solid rgba(134, 14, 14, 0.5);
         }
     }
     &_checkbox {
         position: absolute;
         z-index: -1;
-    }
-    &_label {
-        display: flex;
-        width: 90.47%;
-        cursor: pointer;
     }
     &_view {
         display: flex;
@@ -106,7 +113,7 @@
         margin-top: 23px;
     }
     .button {
-        width: 90.47%;
+        width: 100%;
     }
 }
 .thanks {

@@ -13,12 +13,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
         overflow-y: auto;
-        width: 84.07%;
+        width: 100%;
         max-width: 1177px;
         height: 95vh;
         max-height: 514px;
         border-radius: 10px;
-        background: #1e3018;
+        background: #ffffff;
     }
     &_wrapper {
         display: none;
@@ -34,7 +34,7 @@
         flex-direction: column;
         justify-content: space-between;
         margin-top: 25px;
-        width: 74%;
+        width: 100%;
     }
     &_header {
         display: flex;

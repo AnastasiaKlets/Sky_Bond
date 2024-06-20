@@ -1,72 +1,72 @@
 @font-face {
   font-family: "Benzin";
-  src: url("../../fonts/Benzin-Medium.eot");
-  src: local("Benzin Medium"), local("Benzin-Medium"), url("../../fonts/Benzin-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Benzin-Medium.woff2") format("woff2"), url("../../fonts/Benzin-Medium.woff") format("woff"), url("../../fonts/Benzin-Medium.ttf") format("truetype");
+  src: url("../fonts/Benzin-Medium.eot");
+  src: local("Benzin Medium"), local("Benzin-Medium"), url("../fonts/Benzin-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Benzin-Medium.woff2") format("woff2"), url("../fonts/Benzin-Medium.woff") format("woff"), url("../fonts/Benzin-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Benzin";
-  src: url("../../fonts/Benzin-Regular.eot");
-  src: local("Benzin Regular"), local("Benzin-Regular"), url("../../fonts/Benzin-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Benzin-Regular.woff2") format("woff2"), url("../../fonts/Benzin-Regular.woff") format("woff"), url("../../fonts/Benzin-Regular.ttf") format("truetype");
+  src: url("../fonts/Benzin-Regular.eot");
+  src: local("Benzin Regular"), local("Benzin-Regular"), url("../fonts/Benzin-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Benzin-Regular.woff2") format("woff2"), url("../fonts/Benzin-Regular.woff") format("woff"), url("../fonts/Benzin-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Jost";
-  src: url("../../fonts/Jost-Light.eot");
-  src: local("Jost Light"), local("Jost-Light"), url("../../fonts/Jost-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Jost-Light.woff2") format("woff2"), url("../../fonts/Jost-Light.woff") format("woff"), url("../../fonts/Jost-Light.ttf") format("truetype");
+  src: url("../fonts/Jost-Light.eot");
+  src: local("Jost Light"), local("Jost-Light"), url("../fonts/Jost-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Light.woff2") format("woff2"), url("../fonts/Jost-Light.woff") format("woff"), url("../fonts/Jost-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Jost";
-  src: url("../../fonts/Jost-Regular.eot");
-  src: local("Jost Regular"), local("Jost-Regular"), url("../../fonts/Jost-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Jost-Regular.woff2") format("woff2"), url("../../fonts/Jost-Regular.woff") format("woff"), url("../../fonts/Jost-Regular.ttf") format("truetype");
+  src: url("../fonts/Jost-Regular.eot");
+  src: local("Jost Regular"), local("Jost-Regular"), url("../fonts/Jost-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost-Regular.woff2") format("woff2"), url("../fonts/Jost-Regular.woff") format("woff"), url("../fonts/Jost-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../../fonts/SFProDisplay-Bold.eot");
-  src: local("SF Pro Display Bold"), local("SFProDisplay-Bold"), url("../../fonts/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../../fonts/SFProDisplay-Bold.woff") format("woff"), url("../../fonts/SFProDisplay-Bold.ttf") format("truetype");
+  src: url("../fonts/SFProDisplay-Bold.eot");
+  src: local("SF Pro Display Bold"), local("SFProDisplay-Bold"), url("../fonts/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff"), url("../fonts/SFProDisplay-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../../fonts/SFProDisplay-Semibold.eot");
-  src: local("SF Pro Display Semibold"), local("SFProDisplay-Semibold"), url("../../fonts/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SFProDisplay-Semibold.woff2") format("woff2"), url("../../fonts/SFProDisplay-Semibold.woff") format("woff"), url("../../fonts/SFProDisplay-Semibold.ttf") format("truetype");
+  src: url("../fonts/SFProDisplay-Semibold.eot");
+  src: local("SF Pro Display Semibold"), local("SFProDisplay-Semibold"), url("../fonts/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/SFProDisplay-Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../../fonts/Montserrat-Regular.eot");
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserrat-Regular.woff2") format("woff2"), url("../../fonts/Montserrat-Regular.woff") format("woff"), url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../../fonts/Montserrat-Light.eot");
-  src: local("Montserrat Light"), local("Montserrat-Light"), url("../../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserrat-Light.woff2") format("woff2"), url("../../fonts/Montserrat-Light.woff") format("woff"), url("../../fonts/Montserrat-Light.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Light.eot");
+  src: local("Montserrat Light"), local("Montserrat-Light"), url("../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../../fonts/Montserrat-Medium.eot");
-  src: local("Montserrat Medium"), local("Montserrat-Medium"), url("../../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserrat-Medium.woff2") format("woff2"), url("../../fonts/Montserrat-Medium.woff") format("woff"), url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Medium.eot");
+  src: local("Montserrat Medium"), local("Montserrat-Medium"), url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../../fonts/Montserrat-SemiBold.eot");
-  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../../fonts/Montserrat-SemiBold.woff") format("woff"), url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -91,6 +91,10 @@ a {
 
 .br {
   display: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
@@ -308,19 +312,19 @@ body {
 
 @keyframes phoneAnim {
   0% {
-    background: url("../../icons/phone.svg") no-repeat no-repeat center/80%;
+    background: url("../icons/phone.svg") no-repeat no-repeat center/80%;
   }
   25% {
-    background: url("../../icons/phone1.svg") no-repeat no-repeat center/80%;
+    background: url("../icons/phone1.svg") no-repeat no-repeat center/80%;
   }
   50% {
-    background: url("../../icons/phone2.svg") no-repeat no-repeat center/80%;
+    background: url("../icons/phone2.svg") no-repeat no-repeat center/80%;
   }
   75% {
-    background: url("../../icons/phone3.svg") no-repeat no-repeat center/80%;
+    background: url("../icons/phone3.svg") no-repeat no-repeat center/80%;
   }
   100% {
-    background: url("../../icons/phone.svg") no-repeat no-repeat center/80%;
+    background: url("../icons/phone.svg") no-repeat no-repeat center/80%;
   }
 }
 #hidden-checker {
@@ -363,7 +367,7 @@ body {
 }
 
 .interest {
-  background: url("../../img/interest_Background.png") no-repeat center/100%;
+  background: url("../img/interest_Background.png") no-repeat center/100%;
   padding: 147px 0;
 }
 .interest_wrapper {
@@ -479,7 +483,7 @@ body {
   gap: 15px;
 }
 .briefcase_wrapper_portfel_blocks_block {
-  background: url("../../img/briefcase/portfel.png") no-repeat center/100%;
+  background: url("../img/briefcase/portfel.png") no-repeat center/100%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -529,13 +533,13 @@ body {
   width: 100%;
 }
 .job_wrapper_blocks_img1 {
-  background: url("../../img/job/job.png") no-repeat center/100%;
+  background: url("../img/job/job.png") no-repeat center/100%;
 }
 .job_wrapper_blocks_img2 {
-  background: url("../../img/job/job2.png") no-repeat center/100%;
+  background: url("../img/job/job2.png") no-repeat center/100%;
 }
 .job_wrapper_blocks_img3 {
-  background: url("../../img/job/job3.png") no-repeat center/100%;
+  background: url("../img/job/job3.png") no-repeat center/100%;
 }
 
 .map {
@@ -593,13 +597,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 21px 27px;
-  width: 67.28%;
-  max-width: 942px;
+  padding: 0 60px 0;
+  width: 90%;
+  max-width: 1766px;
   height: calc(95vh - 42px);
-  max-height: 514px;
-  border-radius: 10px;
-  background: #1e3018;
+  max-height: 993px;
+  background: #ffffff;
 }
 .consult_close, .team_close {
   position: absolute;
@@ -614,25 +617,30 @@ body {
   height: 100%;
 }
 .consult_wrapper, .team_wrapper {
-  position: relative;
   overflow-y: auto;
-  padding: 24px 51px;
   height: calc(100% - 48px);
-  border: 1px solid #fff;
-  border-radius: 10px;
+  display: flex;
+  gap: 20px;
 }
 .consult_image, .team_image {
-  position: absolute;
-  right: 9.44%;
-  bottom: -4px;
-  width: 18.5%;
+  width: 60%;
 }
 .consult_image img, .team_image img {
   width: 100%;
 }
 .consult_content, .team_content {
-  padding-top: 22px;
+  padding-top: 40px;
+  margin-left: 30px;
   width: 69%;
+  display: flex;
+  flex-direction: column;
+}
+.consult_content_title, .team_content_title {
+  margin-bottom: 50px;
+}
+.consult_content_text, .team_content_text {
+  margin-bottom: 30px;
+  width: 80%;
 }
 .consult_form, .team_form {
   margin-top: 23px;
@@ -651,20 +659,22 @@ body {
   color: rgba(0, 0, 0, 0.6);
   background: #faf9fb;
   outline: none;
+  border: none;
 }
 .consult_form_input::placeholder, .team_form_input::placeholder {
   font-weight: 400;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
 }
+.consult_form_input_dop, .team_form_input_dop {
+  height: 161px;
+}
+.consult_form input:focus, .team_form input:focus {
+  border: 1px solid rgba(134, 14, 14, 0.5);
+}
 .consult_checkbox, .team_checkbox {
   position: absolute;
   z-index: -1;
-}
-.consult_label, .team_label {
-  display: flex;
-  width: 90.47%;
-  cursor: pointer;
 }
 .consult_view, .team_view {
   display: flex;
@@ -687,7 +697,7 @@ body {
   margin-top: 23px;
 }
 .consult .button, .team .button {
-  width: 90.47%;
+  width: 100%;
 }
 
 .thanks .survey_content {
@@ -822,60 +832,26 @@ body {
   flex-direction: column;
 }
 
-.reviews {
-  margin-top: 150px;
-}
-.reviews .slider-container {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  position: relative;
-}
-.reviews .slider-container .slider-items-container {
-  overflow: hidden;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.reviews .slider-container .slider-items-container .slider-items {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  overflow: hidden;
-  flex: 1 1 auto;
-}
-.reviews .slider-container .slider-items-container .slider-items .slider-item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem 3rem;
-  width: calc(90% - 20px);
-  align-items: center;
+.reviews .documents_slide .reviews_block {
+  border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
-  gap: 20px;
-}
-.reviews .slider-container .slider-items-container .slider-items .slider-item .title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
+  padding: 20px;
+  gap: 18px;
+  height: 590px;
 }
-.reviews .slider-container .slider-items-container .slider-items .slider-item .circle-image {
+.reviews .documents_slide .reviews_block img {
   border-radius: 100%;
-  height: 50%;
-  width: 50%;
+  height: 180px;
+  width: 180px;
 }
-.reviews .slider-container .slider-control {
-  position: absolute;
-  top: 50%;
-  z-index: 3;
-}
-.reviews .slider-container .slider-control.left-arrow {
-  left: -3rem;
-}
-.reviews .slider-container .slider-control.right-arrow {
-  right: -4rem;
+.reviews .documents_slide .reviews_block div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .advantages {
@@ -977,12 +953,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow-y: auto;
-  width: 84.07%;
+  width: 100%;
   max-width: 1177px;
   height: 95vh;
   max-height: 514px;
   border-radius: 10px;
-  background: #1e3018;
+  background: #ffffff;
 }
 .survey_wrapper {
   display: none;
@@ -998,7 +974,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 25px;
-  width: 74%;
+  width: 100%;
 }
 .survey_header {
   display: flex;
@@ -1372,6 +1348,7 @@ body {
   top: 50%;
   transform: translate(0, -50%);
   width: 2.8%;
+  cursor: pointer;
 }
 .documents_prev img, .documents_next img {
   width: 100%;
@@ -1414,6 +1391,11 @@ body {
 .CASES_wrapper_tabs_button_btn {
   background: rgba(9, 57, 100, 0);
 }
+.CASES_wrapper_tabs_button_btn_dop {
+  height: 100px !important;
+  text-align: start;
+  padding: 0 25px !important;
+}
 .CASES_wrapper_tabs_block {
   width: 100%;
   background: #f1f8fe;
@@ -1446,6 +1428,53 @@ body {
 
 .button_CASES {
   background: #ddeefe;
+}
+
+.faq {
+  margin-top: 100px;
+}
+.faq_wrapper_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq_wrapper_tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq_wrapper_tabs_button {
+  display: flex;
+  gap: 30px;
+}
+.faq_wrapper_tabs_button button {
+  background: #d9d9d9;
+  width: 236px;
+  height: 6px;
+  border: none;
+}
+.faq_wrapper_tabs_blocks {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.faq_wrapper_tabs_blocks_part {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+}
+.faq_wrapper_tabs_blocks_part_inf {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.faq_dop {
+  background: #093964 !important;
+}
+
+.mySwiper {
+  display: none;
 }
 
 @media (max-width: 1740px) {
@@ -2133,6 +2162,9 @@ body {
   .briefcase_wrapper_portfel_title2 {
     gap: 10px;
   }
+  .briefcase_wrapper_inf {
+    gap: 39px;
+  }
 }
 @media (max-width: 1440px) {
   .briefcase_wrapper_portfel {
@@ -2306,49 +2338,227 @@ body {
     margin-top: 45px;
   }
 }
+@media (max-width: 1720px) {
+  .consult_modal {
+    transform: translate(-50%, -50%);
+    padding: 0 50px 0;
+    width: 90%;
+    max-width: 1766px;
+    height: calc(95vh - 42px);
+    max-height: 993px;
+    background: #ffffff;
+  }
+  .consult_close {
+    position: absolute;
+    z-index: 5;
+    height: 22px;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+  }
+  .consult_close img {
+    width: 100%;
+    height: 100%;
+  }
+  .consult_wrapper {
+    overflow-y: auto;
+    height: calc(100% - 48px);
+    display: flex;
+    gap: 15px;
+  }
+  .consult_image {
+    width: 60%;
+  }
+  .consult_image img {
+    width: 100%;
+  }
+  .consult_content {
+    padding-top: 40px;
+    margin-left: 30px;
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+  }
+  .consult_content_title {
+    margin-bottom: 30px;
+  }
+  .consult_content_text {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .consult_form {
+    margin-top: 23px;
+    width: 74.9%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .consult_form_input {
+    width: calc(100% - 44px);
+    height: 32px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    background: #faf9fb;
+    outline: none;
+    border: none;
+  }
+  .consult_form_input::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .consult_form_input_dop {
+    height: 161px;
+  }
+  .consult_view {
+    min-width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  .consult .title_24 {
+    margin-top: 23px;
+  }
+  .consult .button {
+    width: 100%;
+  }
+}
+@media (max-width: 1600px) {
+  .consult_modal {
+    transform: translate(-50%, -50%);
+    padding: 0 50px 0;
+    width: 90%;
+    max-width: 1766px;
+    height: calc(95vh - 42px);
+    max-height: 993px;
+    background: #ffffff;
+  }
+  .consult_close {
+    position: absolute;
+    z-index: 5;
+    height: 20px;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+  }
+  .consult_close img {
+    width: 100%;
+    height: 100%;
+  }
+  .consult_wrapper {
+    overflow-y: auto;
+    height: calc(100% - 48px);
+    display: flex;
+    gap: 10px;
+  }
+  .consult_image {
+    width: 42%;
+  }
+  .consult_image img {
+    width: 100%;
+  }
+  .consult_content {
+    padding-top: 20px;
+    margin-left: 15px;
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+  }
+  .consult_content_title {
+    margin-bottom: 15px;
+  }
+  .consult_content_text {
+    margin-bottom: 10px;
+    width: 90%;
+  }
+  .consult_form {
+    margin-top: 23px;
+    width: 74.9%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .consult_form_input {
+    width: calc(100% - 44px);
+    height: 28px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .consult_form_input_dop {
+    height: 100px;
+  }
+  .consult_view {
+    min-width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  .consult .title_24 {
+    margin-top: 23px;
+  }
+  .consult .button {
+    width: 100%;
+  }
+}
 @media (max-width: 992px) {
-  .consult_modal, .team_modal {
+  .consult_modal {
     padding: 16px 15px;
     width: calc(100% - 30px);
     max-width: none;
-    height: calc(65vh - 32px);
+    height: calc(75vh - 32px);
     max-height: none;
   }
-  .consult_close, .team_close {
+  .consult_close {
     top: 17px;
     right: 17px;
   }
-  .consult_wrapper, .team_wrapper {
+  .consult_wrapper {
     padding: 17px 16px;
     height: calc(100% - 34px);
   }
-  .consult_image, .team_image {
+  .consult_image {
     right: 6%;
     bottom: -4px;
     width: 17.62%;
   }
-  .consult_content, .team_content {
-    padding-top: 33px;
+  .consult_content {
+    padding: 0;
+    margin: 0;
     width: 100%;
   }
-  .consult_form, .team_form {
+  .consult_content_title {
+    margin-bottom: 15px;
+  }
+  .consult_content_text {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .consult_content button {
+    height: 50px;
+  }
+  .consult_form {
     margin-top: 20px;
     width: 100%;
   }
-  .consult_form_input, .team_form_input {
+  .consult_form_input {
     height: 24px;
   }
-  .consult_label, .team_label {
+  .consult_label {
     width: 100%;
   }
-  .consult .title_24, .team .title_24 {
+  .consult .title_24 {
     margin-top: 3px;
   }
-  .consult .title_24, .consult .title_40, .team .title_24, .team .title_40 {
+  .consult .title_24, .consult .title_40 {
     text-align: center;
   }
-  .consult .button, .team .button {
+  .consult .button {
     width: 100%;
+  }
+  .consult .consult_image {
+    display: none;
   }
 }
 @media (max-width: 1600px) {
@@ -2370,6 +2580,12 @@ body {
   .getConsultation_form button {
     width: 60%;
   }
+  .getConsultation_form_text {
+    height: 50px;
+  }
+  .getConsultation_form_mess {
+    height: 110px;
+  }
 }
 @media (max-width: 1440px) {
   .getConsultation_wrapper {
@@ -2381,11 +2597,17 @@ body {
     width: 12%;
   }
   .getConsultation_form {
-    gap: 30px;
-    padding: 40px 60px;
+    gap: 20px;
+    padding: 20px 40px;
   }
   .getConsultation_form input {
     width: 65%;
+  }
+  .getConsultation_form_text {
+    height: 57px;
+  }
+  .getConsultation_form_mess {
+    height: 111px;
   }
   .getConsultation_form button {
     width: 65%;
@@ -2480,6 +2702,29 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 17px;
+  }
+}
+@media (max-width: 992px) {
+  .reviews .documents_slide .reviews_block {
+    border-radius: 10px;
+    box-shadow: none;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 18px;
+    height: 410px;
+  }
+  .reviews .documents_slide .reviews_block img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+  }
+  .reviews .documents_slide .reviews_block div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
 @media (max-width: 1520px) {
@@ -2666,6 +2911,9 @@ body {
   .CASES_wrapper_tabs_button button {
     height: 45px;
     padding: 0 10px;
+  }
+  .CASES_wrapper_tabs_button_btn_dop {
+    height: 61px !important;
   }
   .CASES_wrapper_tabs_block_inf {
     padding: 30px 0;
@@ -3021,6 +3269,18 @@ body {
     flex-direction: column;
     gap: 10px;
     align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .faq_wrapper_tabs {
+    display: none;
+  }
+  .mySwiper {
+    display: inline;
+    padding-top: 20px;
+  }
+  .faq {
+    margin-top: 50px;
   }
 }
 .hide {

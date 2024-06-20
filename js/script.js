@@ -66,6 +66,22 @@ if (document.querySelector('.documents_field') != null) {
     })
 }
 
+//для слайдера
+if (document.querySelector('.documents_field') != null) {
+    slider({
+        containerSelector: '.documents_container.reviews',
+        slideSelector: '.documents_slide',
+        prevSlideSelector: '.documents_prev',
+        nextSlideSelector: '.documents_next',
+        wrapperSelector: '.documents_wrapper',
+        fieldSelector: '.documents_field',
+        elementsPerPage: 4,
+        elementsPerPageMobile: 1,
+        indicatorsClass: `documents_indicators`,
+        columnGap: 30,
+        swipe: true,
+    })
+}
 
 
 //функция для табов
@@ -80,6 +96,9 @@ function openCity(cityName) {
     document.getElementById('services5').classList.remove('button_CASES');
     document.getElementById('services6').classList.remove('button_CASES');
     document.getElementById('services7').classList.remove('button_CASES');
+    document.getElementById('services12').classList.remove('faq_dop');
+    document.getElementById('services13').classList.remove('faq_dop');
+    document.getElementById('services14').classList.remove('faq_dop');
     for (i = 0; i < x.length; i++) {
 
         x[i].style.display = "none";
@@ -103,6 +122,18 @@ function openCity(cityName) {
         }
         if(y==="doc7"){
             document.getElementById('services7').classList.add('button_CASES');
+        }
+        if(y==="doc8"){
+            document.getElementById('services7').classList.add('button_CASES');
+        }
+        if(y==="doc10"){
+            document.getElementById('services12').classList.add('faq_dop');
+        }
+        if(y==="doc11"){
+            document.getElementById('services13').classList.add('faq_dop');
+        }
+        if(y==="doc12"){
+            document.getElementById('services14').classList.add('faq_dop');
         }
     }
     document.getElementById(cityName).style.display = "block";

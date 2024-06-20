@@ -21,6 +21,12 @@
       }
     }
   }
+  .getConsultation_form_text {
+    height: 50px;
+  }
+  .getConsultation_form_mess {
+    height: 110px;
+  }
 }
 @media (max-width:1440px) {
   .getConsultation{
@@ -33,10 +39,17 @@
       }
     }
     &_form{
-      gap: 30px;
-      padding: 40px 60px;
+      gap: 20px;
+      padding: 20px 40px;
       input{
         width: 65%;
+      }
+      &_text{
+        height: 57px;
+      }
+
+      &_mess{
+        height: 111px;
       }
 
       button{

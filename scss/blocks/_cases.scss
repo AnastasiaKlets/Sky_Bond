@@ -21,6 +21,11 @@
         }
         &_btn{
           background: rgba(9, 57, 100, 0);
+          &_dop{
+            height: 100px !important;
+            text-align: start;
+            padding: 0 25px !important;
+          }
         }
       }
       &_block{

@@ -1,8 +1,172 @@
 @media (max-width:1720px) {
+    .consult {
+        &_modal {
+            transform: translate(-50%, -50%);
+            padding: 0 50px 0;
+            width: 90%;
+            max-width: 1766px;;
+            height: calc(95vh - 42px);
+            max-height: 993px;;
+            background: #ffffff;
+        }
+        &_close {
+            position: absolute;
+            z-index: 5;
+            height: 22px;
+            top: 24px;
+            right: 24px;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_wrapper {
+            overflow-y: auto;
+            height: calc(100% - 48px);
+            display: flex;
+            gap: 15px;
+        }
+        &_image {
+            width: 60%;
+            img {
+                width: 100%;
+            }
+        }
+        &_content {
+            padding-top: 40px;
+            margin-left: 30px;
+            width: 69%;
+            display: flex;
+            flex-direction: column;
 
-}
+            &_title{
+                margin-bottom: 30px;
+            }
+            &_text{
+                margin-bottom: 20px;
+                width: 90%;
+            }
+        }
+        &_form {
+            margin-top: 23px;
+            width: 74.9%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            &_input {
+                width: calc(100% - 44px);
+                height: 32px;
+                padding: 12px 22px;
+                border-radius: 10px;
+                font-weight: 400;
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.6);
+                background: #faf9fb;
+                outline: none;
+                border: none;
+                &::placeholder {
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+                &_dop{
+                    height: 161px;
+                }
+            }
+        }
+        &_view {
+            min-width: 16px;
+            height: 16px;
+            margin-right: 10px;
+        }
+        .title_24 {
+            margin-top: 23px;
+        }
+        .button {
+            width: 100%;
+        }
+    }
+    }
 @media (max-width:1600px) {
+    .consult {
+        &_modal {
+            transform: translate(-50%, -50%);
+            padding: 0 50px 0;
+            width: 90%;
+            max-width: 1766px;;
+            height: calc(95vh - 42px);
+            max-height: 993px;;
+            background: #ffffff;
+        }
+        &_close {
+            position: absolute;
+            z-index: 5;
+            height: 20px;
+            top: 24px;
+            right: 24px;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &_wrapper {
+            overflow-y: auto;
+            height: calc(100% - 48px);
+            display: flex;
+            gap: 10px;
+        }
+        &_image {
+            width: 42%;
+            img {
+                width: 100%;
+            }
+        }
+        &_content {
+            padding-top: 20px;
+            margin-left: 15px;
+            width: 69%;
+            display: flex;
+            flex-direction: column;
 
+            &_title{
+                margin-bottom: 15px;
+            }
+            &_text{
+                margin-bottom: 10px;
+                width: 90%;
+            }
+        }
+        &_form {
+            margin-top: 23px;
+            width: 74.9%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &_input {
+                width: calc(100% - 44px);
+                height: 28px;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-size: 15px;
+                &_dop{
+                    height: 100px;
+                }
+            }
+        }
+        &_view {
+            min-width: 16px;
+            height: 16px;
+            margin-right: 10px;
+        }
+        .title_24 {
+            margin-top: 23px;
+        }
+        .button {
+            width: 100%;
+        }
+    }
 }
 @media (max-width:1440px) {
 
@@ -11,12 +175,12 @@
 
 }
 @media (max-width: 992px) {
-    .consult, .team {
+    .consult{
         &_modal {
             padding: 16px 15px;
             width: calc(100% - 30px);
             max-width: none;
-            height: calc(65vh - 32px);
+            height: calc(75vh - 32px);
             max-height: none;
         }
         &_close {
@@ -33,8 +197,19 @@
             width: 17.62%;
         }
         &_content {
-            padding-top: 33px;
+            padding: 0;
+            margin: 0;
             width: 100%;
+            &_title{
+                margin-bottom: 15px;
+            }
+            &_text{
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            button{
+                height: 50px;
+            }
         }
         &_form {
             margin-top: 20px;
@@ -51,9 +226,13 @@
         }
         .title_24, .title_40 {
             text-align: center;
+
         }
         .button {
             width: 100%;
+        }
+        .consult_image{
+            display: none;
         }
     }     
 }

@@ -12,12 +12,12 @@ function slider({containerSelector, slideSelector, nextSlideSelector, prevSlideS
         templates = [],
         mainClass,
 		dots = [];
-    const slides = document.querySelectorAll(slideSelector),
-		container = document.querySelector(containerSelector),
-        prev = document.querySelector(prevSlideSelector),
-        next = document.querySelector(nextSlideSelector),
-        wrapper = document.querySelector(wrapperSelector),
-        field = document.querySelector(fieldSelector);
+    const container = document.querySelector(containerSelector),
+        slides = container.querySelectorAll(slideSelector),
+        prev = container.querySelector(prevSlideSelector),
+        next = container.querySelector(nextSlideSelector),
+        wrapper = container.querySelector(wrapperSelector),
+        field = container.querySelector(fieldSelector);
 
     if (indicatorsClass) {
         mainClass = indicatorsClass.slice(0, -11);

@@ -5,6 +5,8 @@ $chat_id = "-4239358048";
 
 $phone = ($_POST['phone']);
 $theme = ($_POST['theme']);
+$name = ($_POST['name']);
+$text = ($_POST['text']);
 
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium'];
@@ -16,6 +18,8 @@ $arr = array(
     'Сайт:' => '...',
     'Тема:' => $theme,
     'Телефон:' => $phone,
+    'Имя:' => $name,
+    'Текст сообщения:' => $text,
     '' => '',
     'UTM метки' => '',
     'utm_source:' => $utm_source,
