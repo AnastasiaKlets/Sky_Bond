@@ -1370,10 +1370,11 @@ span {
 
 .CASES {
   margin-top: 120px;
+  margin-bottom: -110px;
 }
 .CASES_wrapper {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   flex-direction: column;
 }
 .CASES_wrapper_tabs {
@@ -1384,7 +1385,7 @@ span {
 .CASES_wrapper_tabs_button {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 65px;
 }
 .CASES_wrapper_tabs_button button {
   border: 1px dashed #093964;
@@ -1407,6 +1408,9 @@ span {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: -115px;
+  left: 23px;
   align-items: center;
 }
 .CASES_wrapper_tabs_block_inf {
@@ -1414,7 +1418,7 @@ span {
   flex-direction: column;
   width: 88%;
   align-items: center;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 .CASES_wrapper_tabs_block_inf img {
   width: 100%;
@@ -2933,9 +2937,16 @@ span {
     text-align: center;
   }
 }
+@media (max-width: 1150px) {
+  .CASES_wrapper_tabs_block {
+    top: -115px;
+    left: 14px;
+  }
+}
 @media (max-width: 992px) {
   .CASES {
     margin-top: 50px;
+    margin-bottom: 0;
   }
   .CASES_wrapper {
     gap: 15px;
@@ -2954,6 +2965,9 @@ span {
   }
   .CASES_wrapper_tabs_button_btn_dop {
     height: 61px !important;
+  }
+  .CASES_wrapper_tabs_block {
+    position: static;
   }
   .CASES_wrapper_tabs_block_inf {
     padding: 30px 0;
