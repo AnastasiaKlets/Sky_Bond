@@ -79,7 +79,7 @@
 
 .container {
   max-width: 1761px;
-  width: 91.72%;
+  width: 85.72%;
   margin: 0 auto;
 }
 
@@ -101,10 +101,15 @@ body {
   background: #f6f7f8;
 }
 
+span {
+  cursor: default;
+}
+
 .title {
   font-size: 24px;
   font-weight: 400;
   color: #000;
+  cursor: default;
 }
 .title_15 {
   font-size: 15px;
@@ -1432,6 +1437,22 @@ body {
 
 .faq {
   margin-top: 100px;
+  position: relative;
+}
+.faq .faq_wrapper_tabs_blocks_faqRotate {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 2%;
+  top: 45%;
+  transform: rotate(180deg);
+}
+.faq .faq_wrapper_tabs_blocks_faq {
+  position: absolute;
+  background: none;
+  border: none;
+  left: 2%;
+  top: 45%;
 }
 .faq_wrapper_title {
   display: flex;
@@ -1474,6 +1495,10 @@ body {
 }
 
 .mySwiper {
+  display: none;
+}
+
+.documents_faq {
   display: none;
 }
 
@@ -2004,7 +2029,7 @@ body {
     gap: 20px;
   }
   .passiveIncome_wrapper_img {
-    width: 100%;
+    width: 60%;
   }
   .passiveIncome_wrapper_text {
     display: flex;
@@ -2265,6 +2290,13 @@ body {
     gap: 33px;
     padding: 40px 20px 170px;
   }
+  .job_wrapper_blocks_block .title_36 {
+    font-size: 20px;
+  }
+  .job_wrapper_blocks_block .title_20 {
+    font-size: 13px;
+    background: linear-gradient(185deg, rgb(255, 255, 255), rgba(255, 0, 0, 0) 85.71%);
+  }
 }
 @media (max-width: 1200px) {
   .job {
@@ -2275,7 +2307,14 @@ body {
   }
   .job_wrapper_blocks_block {
     gap: 10px;
-    padding: 30px 20px 80px;
+    padding: 30px 20px 150px;
+  }
+  .job_wrapper_blocks_block .title_36 {
+    font-size: 20px;
+  }
+  .job_wrapper_blocks_block .title_20 {
+    font-size: 13px;
+    background: linear-gradient(185deg, rgb(255, 255, 255), rgba(255, 0, 0, 0) 85.71%);
   }
 }
 @media (max-width: 992px) {
@@ -2291,13 +2330,14 @@ body {
   .job_wrapper_blocks {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
   .job_wrapper_blocks_block {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 3px 0 156px 0;
-    width: 100%;
+    padding: 10px 10px 190px;
+    width: calc(100% - 20px);
   }
 }
 @media (max-width: 992px) {
@@ -3276,11 +3316,19 @@ body {
     display: none;
   }
   .mySwiper {
+    display: none;
+  }
+  .documents_faq {
     display: inline;
-    padding-top: 20px;
   }
   .faq {
     margin-top: 50px;
+  }
+  .faq .documents_indicators {
+    margin-top: 0;
+  }
+  .faq .faq_wrapper_tabs_blocks_part_inf {
+    margin-bottom: 10px;
   }
 }
 .hide {

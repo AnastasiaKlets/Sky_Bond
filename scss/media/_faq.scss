@@ -3,13 +3,23 @@
     display: none;
   }
   .mySwiper{
+    display: none;
+  }
+  .documents_faq{
     display: inline;
-    padding-top: 20px;
   }
   .faq{
     margin-top: 50px;
   }
 
+  .faq{
+    .documents_indicators {
+      margin-top: 0;
+    }
+    .faq_wrapper_tabs_blocks_part_inf {
+      margin-bottom: 10px;
+    }
+  }
 }
 @media (max-width: 768px) {
 

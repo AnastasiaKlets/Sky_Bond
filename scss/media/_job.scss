@@ -13,6 +13,17 @@
         &_block{
           gap: 33px;
           padding: 40px 20px 170px;
+          .title_36 {
+            font-size: 20px;
+          }
+          .title_20 {
+            font-size: 13px;
+            background:  linear-gradient(
+                            185deg,
+                            rgb(255, 255, 255),
+                            rgba(255, 0, 0, 0) 85.71%);
+
+          }
         }
       }
     }
@@ -26,7 +37,18 @@
       &_blocks{
         &_block{
           gap: 10px;
-          padding: 30px 20px 80px;
+          padding: 30px 20px 150px;
+          .title_36 {
+            font-size: 20px;
+          }
+          .title_20 {
+            font-size: 13px;
+            background:  linear-gradient(
+                            185deg,
+                            rgb(255, 255, 255),
+                            rgba(255, 0, 0, 0) 85.71%);
+
+          }
         }
       }
     }
@@ -43,12 +65,13 @@
       &_blocks{
         display: flex;
         flex-direction: column;
+        gap: 20px;
         &_block{
           display: flex;
           flex-direction: column;
           gap: 20px;
-          padding: 3px 0 156px 0;
-          width: 100%;
+          padding: 10px 10px 190px ;
+          width: calc(100% - 20px);
         }
       }
     }

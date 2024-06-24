@@ -1,5 +1,22 @@
 .faq{
   margin-top: 100px;
+  position: relative;
+  .faq_wrapper_tabs_blocks_faqRotate{
+    position: absolute;
+    background: none;
+    border: none;
+    right: 2%;
+    top: 45%;
+    transform: rotate(180deg);
+  }
+  .faq_wrapper_tabs_blocks_faq{
+    position: absolute;
+    background: none;
+    border: none;
+    left: 2%;
+    top: 45%;
+
+  }
   &_wrapper{
     &_title{
       display: flex;
@@ -42,5 +59,8 @@
   background: #093964 !important;
 }
 .mySwiper{
+  display: none;
+}
+.documents_faq{
   display: none;
 }

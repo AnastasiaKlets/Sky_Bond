@@ -9,7 +9,7 @@
 }
 .container {
   max-width: 1761px;
-  width: 91.72%;
+  width: 85.72%;
   margin: 0 auto;
 }
 a {
@@ -25,6 +25,9 @@ button{
 }
 body{
   background: #f6f7f8;
+}
+span{
+  cursor: default;
 }
 @import "blocks/title";
 @import "blocks/button";

@@ -13,7 +13,7 @@ $(window).scroll(function() {
 
 
 //маска для номера
-$('input[name="phone"]').mask("+375(99)999-99-99");
+$('input[name="phone"]').mask("+7 (999) 999-99-99");
 
 
 //метки
@@ -70,6 +70,22 @@ if (document.querySelector('.documents_field') != null) {
 if (document.querySelector('.documents_field') != null) {
     slider({
         containerSelector: '.documents_container.reviews',
+        slideSelector: '.documents_slide',
+        prevSlideSelector: '.documents_prev',
+        nextSlideSelector: '.documents_next',
+        wrapperSelector: '.documents_wrapper',
+        fieldSelector: '.documents_field',
+        elementsPerPage: 4,
+        elementsPerPageMobile: 1,
+        indicatorsClass: `documents_indicators`,
+        columnGap: 30,
+        swipe: true,
+    })
+}
+//для слайдера
+if (document.querySelector('.documents_field') != null) {
+    slider({
+        containerSelector: '.documents_container.faq',
         slideSelector: '.documents_slide',
         prevSlideSelector: '.documents_prev',
         nextSlideSelector: '.documents_next',
