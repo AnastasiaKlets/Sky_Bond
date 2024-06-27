@@ -30,26 +30,6 @@
     &_text{
       height: 71px;
     }
-    input:focus {
-      box-shadow: rgb(255, 255, 255) 0px 3px 6px, rgba(255, 255, 255, 0.47) 0px 3px 6px;
-      outline: none;
-      text-align: center;
-    }
-    input::placeholder {
-      text-align: center;
-    }
-    ::-webkit-input-placeholder {
-      text-align: center;
-    }
-    :-moz-placeholder { /* Firefox 18- */
-      text-align: center;
-    }
-    ::-moz-placeholder { /* Firefox 19+ */
-      text-align: center;
-    }
-    :-ms-input-placeholder {
-      text-align: center;
-    }
     button{
       width: 50%;
     }

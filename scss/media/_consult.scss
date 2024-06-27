@@ -23,7 +23,7 @@
         }
         &_wrapper {
             overflow-y: auto;
-            height: calc(100% - 48px);
+            height: calc(90% - 48px);
             display: flex;
             gap: 15px;
         }
@@ -118,7 +118,7 @@
             gap: 10px;
         }
         &_image {
-            width: 42%;
+            width: 60%;
             img {
                 width: 100%;
             }
@@ -169,10 +169,42 @@
     }
 }
 @media (max-width:1440px) {
-
+    .consult {
+        &_modal {
+            height: calc(95vh - 42px);
+        }
+    }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
+    .consult {
+        &_modal {
+            height: calc(95vh - 42px);
+        }
+        &_image {
+            width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 1060px) {
+    .consult {
+        &_modal {
+            height: calc(95vh - 42px);
+        }
+        &_image {
+            width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .text-field__input {
+        height: calc(1.5rem + 2px);
+        line-height: 1;
 
+    }
 }
 @media (max-width: 992px) {
     .consult{

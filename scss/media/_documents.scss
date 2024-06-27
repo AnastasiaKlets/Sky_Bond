@@ -16,9 +16,6 @@
         &_container {
             margin-top: 18px;
         }
-        &_prev, &_next {
-            display: none;
-        }
         &_indicators {
             display: flex;
             justify-content: center;
@@ -42,6 +39,9 @@
             text-align: center;
         }
     }
+  .faq_next{
+    transform: rotate(180deg);
+  }
 }
 @media (max-width: 768px) {
 

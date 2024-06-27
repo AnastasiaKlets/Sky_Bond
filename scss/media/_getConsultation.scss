@@ -100,7 +100,7 @@
         color: #ffffff;
       }
       input{
-        width: 100%;
+        width: 96%;
       }
       &_text{
         height: 45px;
@@ -117,7 +117,15 @@
   }
 }
 @media (max-width: 768px) {
+  .getConsultation{
 
+    &_form {
+
+      input {
+        width: 93%;
+      }
+    }
+  }
 }
 @media (max-width: 480px) {
 
