@@ -749,6 +749,7 @@ span {
 .getConsultation_wrapper_img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .getConsultation_wrapper_mail {
   position: absolute;
@@ -885,7 +886,7 @@ span {
   flex-direction: column;
   margin-bottom: 30px;
   width: 100%;
-  gap: 60px;
+  gap: 30px;
 }
 .advantages_wrapper_tabs_button_button span {
   color: #ffffff;
@@ -1689,7 +1690,7 @@ span {
     font-size: 49px;
   }
   .title_70 {
-    font-size: 52px;
+    font-size: 47px;
   }
   .title_85 {
     font-size: 62px;
@@ -2945,7 +2946,7 @@ span {
     flex-direction: column;
     margin-bottom: 30px;
     width: 100%;
-    gap: 60px;
+    gap: 30px;
   }
   .advantages_wrapper_tabs_button_button span {
     color: #ffffff;
@@ -3001,7 +3002,7 @@ span {
     padding: 15px;
     margin-bottom: 10px;
     width: 100%;
-    gap: 15px;
+    gap: 10px;
     justify-content: space-between;
   }
   .advantages_wrapper_tabs_button_button svg {
